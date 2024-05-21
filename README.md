@@ -24,7 +24,11 @@ Para poder realizar este proyecto se necesitan los siguientes componentes HW:
     - ECHO: GPIO 24
 - Zumbador
     - Buzzer: GPIO 4
-- Cámara 
+- Cámara
+# Esquemático de Conexión HW
+
+
+
 
 
 
