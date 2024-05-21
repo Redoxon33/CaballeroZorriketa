@@ -65,7 +65,9 @@ Si estas pensando en usar el código de este repositorio, los pasos a seguir par
 Para la obtención de este código debes crear una carpeta en tu sistema local y clonar este repostorio en la carpeta. Una vez clonado el repositorio deberás meterte dentro de la carpeta que has creado y compilar el siguiente código:
 
 ```sh
-gcc -o mi_programa mi_programa.c
+gcc -o motor_sensor_solo_pwm_camara_solo.c
+
+```
 
 
 ## Conexión con el móvil
