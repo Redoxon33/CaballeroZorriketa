@@ -28,6 +28,7 @@ Para poder realizar este proyecto se necesitan los siguientes componentes HW:
 # Esquemático de Conexión HW
 
 
+![Esquemático de la conexión Hardware](imagenes/Diagrama_ADE.drawio.png)
 
 
 
