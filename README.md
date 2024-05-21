@@ -62,7 +62,11 @@ El sensor de distancia está midiendo la distancia en todo momento. Estas distan
 Si estas pensando en usar el código de este repositorio, los pasos a seguir para poder hacerlo de una manera adecuada son los siguientes:
 
 ## Obtención y compilación del código
-Para obenter este código puedes crear una carpeta en tu sistema local y clonar este repostorio en esa carpeta. Una vez clonado el repositorio metete dentro de la carpeta que has creado y compila el código que aparece ( poner el comando que nosotros usabamos para compialrlo)
+Para la obtención de este código debes crear una carpeta en tu sistema local y clonar este repostorio en la carpeta. Una vez clonado el repositorio deberás meterte dentro de la carpeta que has creado y compilar el siguiente código:
+
+```sh
+gcc -o mi_programa mi_programa.c
+
 
 ## Conexión con el móvil
 Para poder interactuar a través del móvil con el motor, es necesario que te conectes tanto la raspberry pi como el móvil a la misma red WIFI. Una vez que ambos estén en la misma red, comprueba que IP tiene tu raspberry pi. Para ello usa el comando ifconfig y fijate en la IP de la interfaz de red wlan0. 
