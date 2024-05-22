@@ -31,8 +31,36 @@ Para poder realizar este proyecto se necesitan los siguientes componentes HW:
 
 ![Esquemático de la conexión Hardware](imagenes/Diagrama_ADE.drawio.png)
 
+# Requisitos SW
 
+## Requisitos de Software
 
+Para ejecutar este proyecto en una Raspberry Pi, asegúrate de tener instaladas las siguientes herramientas y librerías:
+
+1. **Sistema Operativo**
+    - Raspbian (o cualquier distribución basada en Debian para Raspberry Pi)
+
+2. **Herramientas de Desarrollo**
+    - `build-essential`: Herramientas de compilación para C y C++.
+    ```sh
+    sudo apt install build-essential
+    ```
+
+3. **Librerías de Red**
+    - Las cabeceras estándar de desarrollo para sockets (`sys/socket.h`, `netinet/in.h`) están incluidas con `build-essential`.
+
+4. **Librería de hilos**
+    - `pthread`: Incluida en las cabeceras estándar de desarrollo.
+
+5. **pigpio**
+    - Librería para controlar los pines GPIO en la Raspberry Pi.
+    ```sh
+    sudo apt install pigpio
+    ```
+    - Iniciar el demonio `pigpio`:
+    ```sh
+    sudo pigpiod
+    ```
 
 # Software
 
