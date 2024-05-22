@@ -26,10 +26,10 @@ Para poder realizar este proyecto se necesitan los siguientes componentes HW:
 - Zumbador
     - Buzzer: GPIO 4
 - Cámara
-# Esquemático de Conexión HW
+- ## Esquemático de Conexión HW
 
 
-![Esquemático de la conexión Hardware](imagenes/Diagrama_ADE.drawio.png)
+    ![Esquemático de la conexión Hardware](imagenes/Diagrama_ADE.drawio.png)
 
 # Requisitos SW
 
@@ -118,6 +118,12 @@ Si se está pensando en usar el código de este repositorio, los pasos a seguir 
     ```
     
     Ya debería estar recibiendo los mensajes desde el cliente del móvil.
+
+
+# Contacto
+Si se tiene algún problema o consulta, se puede contactar a través de los siguientes correos electrónicos:
+ - adrian.cpbo@gmail.com
+ - jonzorriketa@gmail.com
 
 
 
