@@ -35,7 +35,7 @@ Para poder realizar este proyecto se necesitan los siguientes componentes HW:
 
 ## Requisitos de Software
 
-Para ejecutar este proyecto en una Raspberry Pi, asegúrate de tener instaladas las siguientes herramientas y librerías:
+Para ejecutar este proyecto , es necesario tener instaladas las siguientes herramientas y librerías:
 
 1. **Sistema Operativo**
     - Raspbian (o cualquier distribución basada en Debian para Raspberry Pi)
