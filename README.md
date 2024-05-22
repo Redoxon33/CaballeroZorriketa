@@ -8,9 +8,11 @@ El objetivo de este proyecto es controlar un motor desde el teléfono móvil uti
 ## Tabla de Contenidos
 
 1. [Requisitos HW](#RequisitosHW)
-2. [Software](#Software)
-3. [Funcionamiento](#Funcionamiento)
-4. [Uso](#Uso)
+2. [Requisitos Sw](#RequisitosSW)
+3. [Software](#Software)
+4. [Funcionamiento](#Funcionamiento)
+5. [Uso](#Uso)
+6. [Contacto](#Contacto)
 
 
 # Requisitos HW
