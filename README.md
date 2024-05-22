@@ -36,7 +36,7 @@ Para poder realizar este proyecto se necesitan los siguientes componentes HW:
 
 # Software
 
-El programa consta de diferentes funciones:
+El programa se encuentra en la carpeta codigo y consta de diferentes funciones:
 - Setup(): Esta función configura (indica si son de entrada o de salida) e inicializa los GPIO.
 - set_step(int a, int b, int c, int d): Escribe el valor de las variables a, b, c y d a los GPIOs asignados para el motor.
 - motor_control(): Función encargada de gestionar la acción del motor. Comprueba dos flags: keep_running y manual_override.
