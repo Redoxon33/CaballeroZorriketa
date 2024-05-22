@@ -57,9 +57,11 @@ Para ejecutar este proyecto , es necesario tener instaladas las siguientes herra
     ```sh
     sudo apt install pigpio
     ```
-    - Iniciar el demonio `pigpio`:
+
+    **Nota**: Puede haber problemas con el demonio `pigpio`. Si no se necesita el demonio, es posible eliminarlo con el siguiente comando:
     ```sh
-    sudo pigpiod
+    sudo systemctl stop pigpiod
+    sudo systemctl disable pigpiod
     ```
 
 # Software
