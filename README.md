@@ -65,7 +65,7 @@ Si se está pensando en usar el código de este repositorio, los pasos a seguir 
     Para la obtención de este código, se debe crear una carpeta en el sistema local y clonar este repositorio en la carpeta. Una vez clonado el repositorio, se debe entrar en la carpeta creada 
     y compilar el siguiente código:
     ```sh
-    gcc -o motor_sensor_solo_pwm_camara_solo.c
+    gcc motor_sensor_solo_pwm_camara_solo.c -o motor_sensor_solo_pwm_camara_solo
     
     ```
 
