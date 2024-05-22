@@ -64,6 +64,11 @@ Para ejecutar este proyecto , es necesario tener instaladas las siguientes herra
     sudo systemctl disable pigpiod
     ```
 
+6. **libcamera**
+    - Librería para controlar la cámara de la Raspberry Pi.
+    ```sh
+    sudo apt install libcamera-apps
+    ```
 # Software
 
 El programa se encuentra en la carpeta codigo y consta de diferentes funciones:
