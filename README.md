@@ -62,26 +62,27 @@ El sensor de distancia está midiendo la distancia en todo momento. Estas distan
 Si se está pensando en usar el código de este repositorio, los pasos a seguir para poder hacerlo de una manera adecuada son los siguientes:
 
 - ## Obtención y compilación del código
-Para la obtención de este código, se debe crear una carpeta en el sistema local y clonar este repositorio en la carpeta. Una vez clonado el repositorio, se debe entrar en la carpeta creada y compilar el siguiente código:
-```sh
-gcc -o motor_sensor_solo_pwm_camara_solo.c
-
-```
+    Para la obtención de este código, se debe crear una carpeta en el sistema local y clonar este repositorio en la carpeta. Una vez clonado el repositorio, se debe entrar en la carpeta creada 
+    y compilar el siguiente código:
+    ```sh
+    gcc -o motor_sensor_solo_pwm_camara_solo.c
+    
+    ```
 
 
 - ## Conexión con el móvil
-Para poder interactuar a través del móvil con el motor, es necesario conectar tanto la Raspberry Pi como el móvil a la misma red WIFI. Una vez que ambos estén en la misma red, se debe comprobar la IP de la Raspberry Pi. Para ello, se usa el comando ifconfig y se revisa la IP de la interfaz de red wlan0.
-
-Se debe descargar una aplicación llamada UDP server en el móvil. Esta aplicación actuará como cliente. Una vez instalada, se accede a la aplicación y se configura la IP remota con la que se desea comunicar (esta IP es la que se ve en la interfaz de red wlan0 de la Raspberry Pi) y los puertos (el puerto remoto tiene que ser 6000, el local el que se prefiera).
+    Para poder interactuar a través del móvil con el motor, es necesario conectar tanto la Raspberry Pi como el móvil a la misma red WIFI. Una vez que ambos estén en la misma red, se debe comprobar la IP de la Raspberry Pi. Para ello, se usa el comando ifconfig y se revisa la IP de la interfaz de red wlan0.
+    
+    Se debe descargar una aplicación llamada UDP server en el móvil. Esta aplicación actuará como cliente. Una vez instalada, se accede a la aplicación y se configura la IP remota con la que se desea comunicar (esta IP es la que se ve en la interfaz de red wlan0 de la Raspberry Pi) y los puertos (el puerto remoto tiene que ser 6000, el local el que se prefiera).
 
 - ## Iniciar y ejecutar
-Una vez que la aplicación esté configurada, se debe iniciar y ejecutar el archivo compilado:
-```sh
-sudo ./motor_sensor_solo_pwm_camara_solo
-
-```
-
-Ya debería estar recibiendo los mensajes desde el cliente del móvil.
+    Una vez que la aplicación esté configurada, se debe iniciar y ejecutar el archivo compilado:
+    ```sh
+    sudo ./motor_sensor_solo_pwm_camara_solo
+    
+    ```
+    
+    Ya debería estar recibiendo los mensajes desde el cliente del móvil.
 
 
 
